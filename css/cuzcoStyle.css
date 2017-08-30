@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+@font-face {
+	font-family: cuzcoFont;
+	src: url("../fonts/locurasEmperador.TTF");
+}
+
+.titAmarillo {
+	color: #F0AA41;
+}
+
+.titAmarillo2 {
+	color: #F0AA41;
+	text-align: right;
+}
+
+.cuzcoPrecios{
+	font-family: cuzcoFont, serif;
+}
+
+#precios {
+	text-align: left;
+	margin-left: 50px;
+}
+
+.azul {
+	background-color: #1786bd;
+}
+
+.negro {
+	background-color: black;
+	height: 20px;
+}
+
+#imagen1 {
+	align-items: center;
+}
+
+#imagen2 {
+	background-image: url("../img/cuzco2.jpg");
+	background-size: 100% auto;
+}
+
+#imagen2>div {
+	text-align: right;
+	color: white;
+	font-weight:bold;
+}
